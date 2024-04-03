@@ -1,4 +1,4 @@
-import { Route, Router } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Dashboard from "../components/admin/Dashboard"
 // import Navbar from "../components/admin/Navbar"
 import Orders from "../components/admin/Orders"
@@ -10,7 +10,7 @@ import Home from "../components/admin/home"
 const AdminRoute = ()=>{
     return(
         <>
-        <Router>
+        <Routes>
             <Route path="admin" element={<Home/>}>
                 <Route index element={<Dashboard/>}/>
                 <Route path='dashboard' element={<Dashboard/>}/>
@@ -19,7 +19,7 @@ const AdminRoute = ()=>{
                 <Route path="products" element={<Products/>}/>
                 <Route path="revenue" element={<Revenue/>}/>
             </Route>
-        </Router>
+        </Routes>
         </>
     )
 }

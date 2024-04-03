@@ -11,7 +11,7 @@ const Home  = () =>{
             </div>
             <div className="flex ">
                 <div><Sidebar/></div>
-                <div><Outlet/></div>
+                <div className="mt-10"><Outlet/></div>
             </div>
         </div>
         </>
