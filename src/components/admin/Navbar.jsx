@@ -5,9 +5,9 @@ const Navbar = () =>{
     return(
         <>
         <div className="">
-        <div className="fixed w-full bg-sky-400 flex justify-between items-center ">
+        <div className="fixed w-full  flex justify-between items-center " style={{backgroundColor:'#BDF4F8'}}>
             <Menu className="m-2"/>
-            <div className=" text-white">Jai Maa Vashno Devi Juice</div>
+            <div className=" text-white font-bold">Jai Maa Vashno Devi Juice</div>
             <Avatar className="m-2"/>
         </div>
         </div>
