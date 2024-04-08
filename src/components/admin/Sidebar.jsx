@@ -10,7 +10,7 @@ const Sidebar = () =>{
     }
     return(
         <>
-        <div className=" mt-14 bg-gray-400 h-full text-white w-fit ">
+        <div className=" fixed mt-14 bg-gray-400 h-full text-white w-fit ">
             <div className="pt-5 pb-5 pl-8 pr-8 mt-2 mb-2 " onClick={()=>handleClick("DASHBOARD")} style={selectNav == "DASHBOARD" ?{backgroundColor:"white",color:"black"}:{}}>DASHBOARD</div>
             <div className="pt-5 pb-5 pl-8 pr-8 mt-2 mb-2 "onClick={()=>handleClick("ORDERS")} style={selectNav == "ORDERS" ?{backgroundColor:"white",color:"black"}:{}}>ORDERS</div>
             <div className="pt-5 pb-5 pl-8 pr-8 mt-2 mb-2 " onClick={()=>handleClick("CATEGORIES")} style={selectNav == "CATEGORIES" ?{backgroundColor:"white",color:"black"}:{}}>CATEGORIES</div>

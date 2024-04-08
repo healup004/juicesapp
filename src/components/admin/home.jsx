@@ -9,9 +9,9 @@ const Home  = () =>{
             <div>
                 <Navbar/>
             </div>
-            <div className="flex ">
+            <div className="flex w-screen">
                 <div><Sidebar/></div>
-                <div className="mt-10"><Outlet/></div>
+                <div className="mt-10 bg-green-600"><Outlet/></div>
             </div>
         </div>
         </>

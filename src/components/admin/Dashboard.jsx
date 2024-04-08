@@ -14,7 +14,7 @@ const Dashboard = () =>{
     const [product, setProduct] = useState(parseInt(Math.random()*100))
     return(
         <>
-        <div className="h-full translate-x-1/2">
+        <div className="h-full translate-x-3/4">
             <div className="">
             <LineChart series={[{curve:"linear", color:"black", data:xdata}]} width={500} height={300} xAxis={[{scaleType:"point", data:lable}]}/>
             <div className="text-center">Orders graph</div>

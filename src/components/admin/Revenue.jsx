@@ -23,8 +23,8 @@ const Revenue = ()=>{
         
     return(
         <>
-        <div className="w-fit translate-x-1/4 h-full ">
-        <div className="  flex  justify-end items-center h-1/6 bg-gray-400 mt-16 mb-1" >
+        <div className="w-fit translate-x-1/2 h-full ">
+        <div className="  flex  justify-end items-center h-1/6 bg-gray-400 mt-10 mb-1" >
         <div className=" mr-3 text-white">Total Revenue : {total}</div>
         </div>
         <div className=" h-fit w-full">
